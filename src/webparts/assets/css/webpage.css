@@ -1,0 +1,144 @@
+@font-face {
+	font-family: 'data-control';
+	src:url('../../assets/images/Data-Control.woff') format('woff'), url('../../assets/images/Data-Control.svg#Data-Control') format('svg'), url('../../assets/images/Data-Control.eot'), url('../../assets/images/Data-Control.eot?#iefix') format('embedded-opentype');
+	font-weight: normal;
+	font-style: normal;
+   }
+	@font-face {
+	font-family: 'Arial Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('font/Arial Regular'), url('../../assets/font/ARIAL.woff') format('woff');
+   }
+
+/*Second Page */
+.col-side-left {
+	clear: both;
+	background: url('../../assets/images/bg.png');
+	font-family: 'Arial Regular';
+	padding-left: 50px;
+	align-items: center;
+/*	display: flex;*/
+	color: #ffffff;
+	background-size: cover;
+}
+.col-side-left h1 {
+	clear: both;
+	font-size: 35px;
+	margin-bottom: 0px;
+	letter-spacing: 6px;
+}
+.col-side-left h6 {
+	font-size: 20px;
+	margin-bottom: 0px;
+	text-transform: capitalize;
+}
+.col-side-right {
+	background-color:#7f7f7f;
+	background-position: 80% center;
+	font-family: 'Arial Regular';
+	color: #fff;
+}
+.box-recruitment-box a {
+	color:#fff;
+	text-decoration:none;
+	font-size: 14px;
+}
+.box-recruitment-box a:hover {
+	text-decoration:underline;
+}
+ @media (min-width: 768px) and (max-width: 1024px) {
+ .col-side-right .container {
+ margin-bottom:50px;
+ margin-right: 0px;
+ margin-left: 0px;
+}
+.box-text, .box-text-clr {
+    font-size: 16px !important;
+}
+.col-side-right{
+	display:flex;
+	align-items:center;
+}
+}
+ @media (max-width: 767px) {
+.mt-p-3 {
+ padding-top:15px;
+}
+ .col-side-right .container {
+ margin-bottom:50px;
+ margin-right: 0px;
+ margin-left: 0px;
+}
+/*.col-side-right .container .row {
+ grid-template-columns: repeat(2, 1fr);
+ grid-column-gap: 15px;
+ grid-row-gap: 15px;
+ display: grid;
+}*/
+ .box-recruitment-box {
+ padding-right:20px;
+ padding-left:20px;
+}
+ .col-side-left div {
+ text-align: center;
+ padding-top: 30px;
+ padding-bottom: 30px;
+}
+ .mob-padding {
+ padding-top:50px !important;
+}
+ .col-side-left {
+ padding-left:0px;
+}
+}
+ @media (min-width: 768px) and (max-width:1366px) {
+ .box-recruitment-box {
+ height: 110px !important;
+}
+}
+
+.bg-1 {
+	background: linear-gradient(295deg, #b0b81a, #d8e326);
+	height: 250px;
+	align-items: center;
+	display: grid;
+}
+.bg-2 {
+	background: linear-gradient(295deg, #00c4a8, #00eecf);
+	height: 250px;
+	align-items: center;
+	display: grid;
+}
+.bg-3 {
+	background: linear-gradient(295deg, #d56287, #fe8559);
+	height: 250px;
+	align-items: center;
+	display: grid;
+}
+.box-text {
+	position: absolute;
+	right: 0px;
+	left: 0px;
+	text-align: center;
+	bottom: 15px;
+	margin:0px;
+}
+.p-relative {
+	position:relative;
+}
+.text-white a {
+	color:#fff;
+	text-decoration:none;
+}
+.box-text, .box-text-clr {
+	font-size: 22px;
+	line-height: 25px
+}
+.box-text-clr {
+	position: relative;
+	bottom: -35px;
+}
+.pt-large {
+    padding-top: 7rem;
+}

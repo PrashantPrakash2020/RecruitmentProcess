@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "recruitment-process-client-side-solution",
+    "id": "b50f9b9a-f64b-4b1a-aa16-adc07ed5a885",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/recruitment-process.sppkg"
+  }
+}
